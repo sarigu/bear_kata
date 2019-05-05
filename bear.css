@@ -1,0 +1,90 @@
+#bear {
+  margin-top: 11em;
+  margin-left: 28em;
+}
+
+body,
+html {
+  background-color: rgb(25, 31, 54);
+}
+
+#planet1 {
+  background-color: azure;
+  height: 5em;
+  width: 5em;
+  border-radius: 50%;
+  margin-left: 20em;
+  margin-top: 2em;
+  animation: random 18s infinite;
+}
+
+#planet2 {
+  background-color: lightblue;
+  height: 3.5em;
+  width: 3.5em;
+  border-radius: 50%;
+  margin-left: 40em;
+  animation: random 10s infinite;
+}
+
+#planet3 {
+  background-color: lightcoral;
+  height: 6em;
+  width: 6em;
+  border-radius: 50%;
+  margin-left: 58em;
+  animation: random 14s infinite;
+}
+
+#planet4 {
+  background-color: lightgoldenrodyellow;
+  height: 7em;
+  width: 7em;
+  border-radius: 50%;
+  margin-top: -8em;
+  margin-left: 9em;
+  animation: random 20s infinite;
+}
+
+#planet5 {
+  background-color: lightpink;
+  height: 5em;
+  width: 5em;
+  border-radius: 50%;
+  margin-left: 29em;
+  margin-top: -6em;
+  animation: random 25s infinite;
+}
+
+@keyframes random {
+  10% {
+    background-color: lightsalmon;
+  }
+  20% {
+    background-color: lavender;
+  }
+  30% {
+    background-color: lightyellow;
+  }
+  40% {
+    background-color: linen;
+  }
+  50% {
+    background-color: lightpink;
+  }
+  60% {
+    background-color: lightskyblue;
+  }
+  70% {
+    background-color: papayawhip;
+  }
+  80% {
+    background-color: palevioletred;
+  }
+  90% {
+    background-color: paleturquoise;
+  }
+  100% {
+    background-color: plum;
+  }
+}
